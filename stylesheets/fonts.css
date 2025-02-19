@@ -4,3 +4,9 @@
   font-style: normal;
   font-weight: 400;
 }
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fonts/coolvetica\ rg.ttf) format("truetype");
+  font-size: normal;
+  font-weight: 400;
+}
