@@ -1,13 +1,20 @@
 * {
   box-sizing: border-box;
-  background-color: brown;
+  background-color: black;
 }
 body {
+  width: 100vw;
   font-family: "AdventureIndianaJones";
 }
-.AIJ {
-  font-family: "AdventureIndianaJones";
+.first-ecranchick {
+  width: 100vw;
+  height: 62vw;
+  display: flex;
+  justify-content: space-evenly;
 }
-.Cool {
-  font-family: "Coolvetica";
+.first-text {
+  color: white;
+}
+.bananov {
+  width: 50%;
 }
