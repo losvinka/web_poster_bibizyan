@@ -7,14 +7,18 @@ body {
   font-family: "AdventureIndianaJones";
 }
 .first-ecranchick {
+  margin-top: 4.14vw;
   width: 100vw;
   height: 62vw;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .first-text {
   color: white;
+  width: 40vw;
+  font-size: 4.6vw;
 }
 .bananov {
-  width: 50%;
+  width: 47.65vw;
 }
