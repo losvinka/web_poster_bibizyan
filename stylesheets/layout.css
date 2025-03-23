@@ -9,52 +9,22 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../images/1440.svg");
+  background-image: url("../images/final.jpg");
   opacity: 0.3;
 }
 body {
   width: 100vw;
   font-family: "AdventureIndianaJones";
 }
-/* секция первая права */
-.section-1 {
-  width: 100%;
-  height: 64.8vw;
-  /* background-color: brown; */
+.first_screen {
 }
-/* .text-1 {
-  color: white;
-  font-size: 6vw;
-  margin-left: 6vw;
-  margin-top: 16.3vw;
-} */
-/* секция вторая тест */
-.section-2 {
-  width: 100%;
-  height: 79.5vw;
-  background-color: aquamarine;
+.second_screen {
 }
-/* секция третья тарифы */
-.section-3 {
-  width: 100%;
-  height: 63vw;
-  background-color: blueviolet;
+.third_screen {
 }
-/* секция четвертая команда */
-.section-4 {
-  width: 100%;
-  height: 52vw;
-  background-color: yellow;
+.fourth_screen {
 }
-/* секция пятая анкета*/
-.section-5 {
-  width: 100%;
-  height: 60vw;
-  background-color: brown;
+.fifth_screen {
 }
-/* секция шестая наклейки и машина */
-.section-6 {
-  width: 100%;
-  height: 101vw;
-  background-color: aquamarine;
+.sixth_screen {
 }
