@@ -18,6 +18,44 @@ body {
 }
 .first_screen {
 }
+.logo {
+  /* background-image: url("../images/logo.svg"); */
+  position: relative;
+  top: 190px;
+  left: 600px;
+  height: auto;
+}
+.chichi {
+  position: relative;
+  top: -558px;
+  left: -260px;
+  transform: rotate(-160deg);
+  z-index: 1;
+}
+
+/* .bananov {
+  background-image: url("../images/bananov.svg");
+} */
+/* .bratok {
+  background-image: url("../images/bratok.svg");
+} */
+/* .batco {
+  background-image: url("../images/batco.svg");
+} */
+/* .lianova {
+  background-image: url("../images/lianova.svg");
+} */
+.cupan {
+  /* background-image: url("../images/cupan.svg"); */
+  position: relative;
+  top: -800px;
+  left: 1010px;
+  transform: rotate(-15deg);
+}
+/* .polot {
+  background-image: url("../images/polot.svg");
+} */
+
 .second_screen {
 }
 .third_screen {
