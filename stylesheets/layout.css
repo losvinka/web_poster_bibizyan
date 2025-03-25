@@ -3,13 +3,13 @@
   background-color: black;
 }
 .section-1::after {
-  width: 1440px;
-  height: 5456px;
+  width: 1700px;
+  height: 6418px;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../images/final.jpg");
+  background-image: url("../images/1700.png");
   opacity: 0.3;
 }
 body {
@@ -17,43 +17,71 @@ body {
   font-family: "AdventureIndianaJones";
 }
 .first_screen {
+  width: 100vw;
+  height: 80vw;
 }
-.logo {
-  /* background-image: url("../images/logo.svg"); */
-  position: relative;
-  top: 190px;
+.prava_group {
+  background-image: url("../images/prava_1.svg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vw;
+  /* animation: prava 3s infinite linear; */
+}
+/* .prava {
+  position: absolute;
+  top: -331px;
+  left: -181px;
+  height: auto;
+} */
+/* .logo {
+  background-image: url("../images/logo.svg");
+  position: absolute;
+  top: 221px;
   left: 600px;
   height: auto;
-}
-.chichi {
-  position: relative;
-  top: -558px;
-  left: -260px;
+} */
+/* .text_1 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+} */
+/* .chichi {
+  position: absolute;
+  top: -231px;
+  left: 503px;
   transform: rotate(-160deg);
   z-index: 1;
 }
 
-/* .bananov {
+.bananov {
   background-image: url("../images/bananov.svg");
-} */
-/* .bratok {
-  background-image: url("../images/bratok.svg");
-} */
-/* .batco {
-  background-image: url("../images/batco.svg");
-} */
-/* .lianova {
-  background-image: url("../images/lianova.svg");
-} */
-.cupan {
-  /* background-image: url("../images/cupan.svg"); */
-  position: relative;
-  top: -800px;
-  left: 1010px;
-  transform: rotate(-15deg);
 }
-/* .polot {
+.bratok {
+  background-image: url("../images/bratok.svg");
+}
+.batco {
+  background-image: url("../images/batco.svg");
+  position: absolute;
+  top: 371px;
+  left: 963px;
+  transform: rotate(-63deg);
+}
+.lianova {
+  background-image: url("../images/lianova.svg");
+}
+.cupan {
+  position: absolute;
+  top: -66px;
+  left: 1032px;
+  transform: rotate(-15deg);
+  z-index: 0;
+}
+.polot {
   background-image: url("../images/polot.svg");
+  position: absolute;
+  top: -43px;
+  left: -97px;
+  transform: rotate(-30deg);
 } */
 
 .second_screen {
