@@ -1,10 +1,8 @@
 @keyframes prava {
   0% {
-    background-image: url("/images/prava_1.svg");
-    background-repeat: no-repeat;
+    background-position: 0 0;
   }
   100% {
-    background-image: url(/images/prava_2.svg);
-    background-repeat: no-repeat;
+    background-position: -2300px;
   }
 }

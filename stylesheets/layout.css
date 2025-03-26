@@ -2,86 +2,92 @@
   box-sizing: border-box;
   background-color: black;
 }
-.section-1::after {
-  width: 1700px;
-  height: 6418px;
+body:after {
+  width: 100vw;
+  height: 372.5vw;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   background-image: url("../images/1700.png");
+  background-size: contain;
   opacity: 0.3;
 }
 body {
   width: 100vw;
   font-family: "AdventureIndianaJones";
+  color: white;
 }
 .first_screen {
   width: 100vw;
-  height: 80vw;
+  height: 64.7vw;
 }
-.prava_group {
-  background-image: url("../images/prava_1.svg");
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 80vw;
-  /* animation: prava 3s infinite linear; */
+.text1 {
+  font-size: 5vw;
+  line-height: 10vw;
+  margin-top: 1vw;
+  margin-left: 2vw;
 }
-/* .prava {
-  position: absolute;
-  top: -331px;
-  left: -181px;
-  height: auto;
-} */
-/* .logo {
+.logo {
+  /* фотка обрезается при изменении расширения экрана, исправить */
   background-image: url("../images/logo.svg");
-  position: absolute;
-  top: 221px;
-  left: 600px;
-  height: auto;
+  width: 25vw;
+  height: 20vw;
+  background-repeat: no-repeat;
+  margin-left: 68vw;
+  margin-top: -15vw;
+  /* transform: rotate(2deg);  надо немного наклонить?*/
+}
+/* .prava { 
+это через див, а не имг
+  background-image: url("../images/bananov.svg");
+  width: 20.3vw;
+  height: 50vw;
 } */
-/* .text_1 {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-} */
-/* .chichi {
-  position: absolute;
-  top: -231px;
-  left: 503px;
-  transform: rotate(-160deg);
-  z-index: 1;
+.prava-2 {
+  width: 48vw;
+  height: 48vw;
+  margin-top: -6vw;
+  margin-left: 26vw;
 }
 
-.bananov {
-  background-image: url("../images/bananov.svg");
+/* .section-1 {
+  display: flex;
+  height: 100vw;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/sprite.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 200% 61.7vw;
+} */
+/* .first_screen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
-.bratok {
-  background-image: url("../images/bratok.svg");
-}
-.batco {
-  background-image: url("../images/batco.svg");
+.prava {
   position: absolute;
-  top: 371px;
-  left: 963px;
-  transform: rotate(-63deg);
+  width: 2300px;
+  height: 1710px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  animation: prava 2s infinite linear;
 }
-.lianova {
-  background-image: url("../images/lianova.svg");
-}
-.cupan {
+.text1 {
   position: absolute;
-  top: -66px;
-  left: 1032px;
-  transform: rotate(-15deg);
-  z-index: 0;
-}
-.polot {
-  background-image: url("../images/polot.svg");
-  position: absolute;
-  top: -43px;
-  left: -97px;
-  transform: rotate(-30deg);
+  top: 47%;
+  left: 6%;
+  text-align: center;
+  font-size: 4.7vw;
+  font-weight: bold;
+  z-index: 9999;
+  max-width: 90%;
+  background: transparent;
 } */
 
 .second_screen {
