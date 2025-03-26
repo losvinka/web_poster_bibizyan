@@ -21,6 +21,7 @@ body {
 .first_screen {
   width: 100vw;
   height: 64.7vw;
+  /* background-color: aquamarine; */
 }
 .text1 {
   font-size: 5vw;
@@ -36,18 +37,19 @@ body {
   background-repeat: no-repeat;
   margin-left: 68vw;
   margin-top: -15vw;
-  /* transform: rotate(2deg);  надо немного наклонить?*/
+  background-size: contain;
+  /* transform: rotate(2deg); */
 }
 /* .prava { 
-это через див, а не имг
+это через див, а не через имг
   background-image: url("../images/bananov.svg");
   width: 20.3vw;
   height: 50vw;
 } */
 .prava-2 {
   width: 48vw;
-  height: 48vw;
-  margin-top: -6vw;
+  height: 36vw;
+
   margin-left: 26vw;
 }
 
