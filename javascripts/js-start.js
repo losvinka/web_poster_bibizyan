@@ -26,3 +26,4 @@ function changePrava() {
     }
   });
 }
+// добавить курсор
