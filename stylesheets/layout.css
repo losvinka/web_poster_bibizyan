@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
-  background-color: black;
+  /*background-image: url("/web_poster_bibizyan/images/background.svg");*/
 }
-body:after {
+/* body:after {
   width: 100vw;
   height: 372.5vw;
   content: "";
@@ -12,8 +12,9 @@ body:after {
   background-image: url("../images/1700.png");
   background-size: contain;
   opacity: 0.3;
-}
+} */
 body {
+  background-color: black;
   width: 100vw;
   font-family: "AdventureIndianaJones";
   color: white;
@@ -21,6 +22,9 @@ body {
 .first_screen {
   width: 100vw;
   height: 64.7vw;
+}
+.halfofcircle {
+  animation: halfofcircle 1.5s steps(1) infinite;
 }
 .text1 {
   font-size: 5vw;
@@ -46,6 +50,7 @@ body {
   width: 100vw;
   height: 77.6vw;
   /* background-color: aquamarine; */
+  /* background-image: url("/web_poster_bibizyan/images/backbibi.svg"); */
 }
 .third_screen {
   width: 100vw;
@@ -61,4 +66,113 @@ body {
   width: 100vw;
   height: 101vw;
   /* background-color: aquamarine; */
+}
+.wavetext1 {
+  width: 57vw;
+  height: 20vw;
+  margin-left: 9vw;
+  margin-top: -0.5vw;
+}
+.boom {
+  width: 47.7vw;
+  height: 41.04vw;
+  margin-left: 13vw;
+  margin-top: 14vw;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  display: block;
+}
+.redbibizyan {
+  width: 57vw;
+  height: 64.6vw;
+  margin-left: -3vw;
+  margin-top: -57vw;
+  position: relative;
+  z-index: 1;
+}
+.bluebibizyan {
+  width: 90vw;
+  height: 64.6vw;
+  margin-left: 23vw;
+  margin-top: -140vw;
+  position: relative;
+  z-index: 3;
+}
+.text3 {
+  width: 95vw;
+  height: 30vw;
+  margin-left: 3vw;
+  margin-top: -2vw;
+}
+.monkey {
+  width: 100vw;
+  height: 55vw;
+  margin-left: 1vw;
+  margin-top: -18vw;
+}
+.glasses {
+  width: 20vw;
+  height: 55vw;
+  margin-left: 40vw;
+  margin-top: -60vw;
+  overflow: hidden;
+  display: block;
+}
+.text4 {
+  font-size: 4.2vw;
+  margin-top: 1.2vw;
+  margin-left: 17.5vw;
+}
+/* .ins1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 30vw;
+  height: 37vw;
+  margin-left: 4.5vw;
+  margin-top: 7vw;
+}
+.ins2 {
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+  height: 37vw;
+  margin-left: 36vw;
+  margin-top: -37vw;
+}
+.ins3 {
+  display: flex;
+  justify-content: flex-end;
+  width: 30vw;
+  height: 37vw;
+  margin-left: 67.5vw;
+  margin-top: -37vw;
+} */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mon1 {
+  display: flex;
+  /* order: 1; */
+  width: 30vw;
+  height: 45vw;
+  margin-left: 4.4vw;
+  margin-top: 7.5vw;
+}
+.mon2 {
+  display: flex;
+  /* order: 2; */
+  width: 30vw;
+  height: 45vw;
+  margin-left: 36.1vw;
+  margin-top: -45vw;
+}
+.mon3 {
+  display: flex;
+  /* order: 3; */
+  width: 30vw;
+  height: 45vw;
+  margin-left: 67.5vw;
+  margin-top: -45vw;
 }
