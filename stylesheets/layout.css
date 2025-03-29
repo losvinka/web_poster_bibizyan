@@ -2,22 +2,25 @@
   box-sizing: border-box;
   /*background-image: url("/web_poster_bibizyan/images/background.svg");*/
 }
-/* body:after {
+body:after {
   width: 100vw;
   height: 372.5vw;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../images/1700.png");
+  background-image: url("../images/1700_1.png");
   background-size: contain;
   opacity: 0.3;
-} */
+}
 body {
   background-color: black;
   width: 100vw;
   font-family: "AdventureIndianaJones";
   color: white;
+  /* margin: 0 auto;
+  display: block; */
+  /* не знаю надо ли оставить или нет */
 }
 .first_screen {
   width: 100vw;
@@ -27,24 +30,26 @@ body {
   animation: halfofcircle 1.5s steps(1) infinite;
 }
 .text1 {
-  font-size: 5vw;
-  line-height: 10vw;
-  margin-top: 1vw;
-  margin-left: 2vw;
+  font-size: 4.7vw;
+  line-height: 8.9vw;
+  margin-top: 4vw;
+  margin-left: 3.4vw;
 }
 .logo {
   background-image: url("../images/logo.svg");
-  width: 25vw;
+  width: 20vw;
   height: 20vw;
   background-repeat: no-repeat;
-  margin-left: 68vw;
-  margin-top: -15vw;
+  margin-left: 70.5vw;
+  margin-top: -14vw;
   background-size: contain;
 }
 .prava-2 {
   width: 48vw;
-  height: 36vw;
+  height: 40vw;
+  margin-top: -4vw;
   margin-left: 26vw;
+  cursor: pointer;
 }
 .second_screen {
   width: 100vw;
@@ -71,7 +76,7 @@ body {
   width: 57vw;
   height: 20vw;
   margin-left: 9vw;
-  margin-top: -0.5vw;
+  margin-top: -4vw;
 }
 .boom {
   width: 47.7vw;
@@ -90,6 +95,7 @@ body {
   margin-top: -57vw;
   position: relative;
   z-index: 1;
+  cursor: pointer;
 }
 .bluebibizyan {
   width: 90vw;
@@ -98,12 +104,13 @@ body {
   margin-top: -140vw;
   position: relative;
   z-index: 3;
+  cursor: pointer;
 }
 .text3 {
   width: 95vw;
   height: 30vw;
   margin-left: 3vw;
-  margin-top: -2vw;
+  margin-top: -5vw;
 }
 .monkey {
   width: 100vw;
@@ -118,11 +125,12 @@ body {
   margin-top: -60vw;
   overflow: hidden;
   display: block;
+  cursor: pointer;
 }
 .text4 {
-  font-size: 4.2vw;
-  margin-top: 1.2vw;
-  margin-left: 17.5vw;
+  font-size: 4.7vw;
+  margin-top: -1.9vw;
+  margin-left: 12vw;
 }
 /* .ins1 {
   display: flex;
@@ -176,3 +184,31 @@ body {
   margin-left: 67.5vw;
   margin-top: -45vw;
 }
+/* .eyes {
+  width: 30vw;
+  height: 45vw;
+  margin-left: 4.4vw;
+  margin-top: 7.5vw;
+}
+.mouth {
+  width: 30vw;
+  height: 45vw;
+  margin-left: 36.1vw;
+  margin-top: -45vw;
+}
+.ears {
+  width: 30vw;
+  height: 45vw;
+  margin-left: 67.5vw;
+  margin-top: -45vw;
+} */
+.text5 {
+  font-size: 4.7vw;
+  margin-left: 2vw;
+}
+/* .bibi {
+  width: 20vw;
+  height: 20vw;
+  margin-top: 10vw;
+  margin-left: 70vw;
+} */
